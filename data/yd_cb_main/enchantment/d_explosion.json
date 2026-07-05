@@ -1,0 +1,41 @@
+{
+  "description": "d_explosion",
+  "supported_items": "minecraft:nautilus_shell",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": ["saddle"],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:explode",
+          "attribute_to_user": false,
+          "knockback_multiplier": 1.2,
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "radius": 5.5,
+          "block_interaction": "none",
+          "small_particle": {
+            "type": "minecraft:wax_off"
+          },
+          "large_particle": {
+            "type": "minecraft:wax_on"
+          },
+          "sound": "minecraft:block.amethyst_block.break"
+        }
+      }
+    ]
+  }
+}

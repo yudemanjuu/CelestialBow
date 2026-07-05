@@ -1,0 +1,15 @@
+    {
+      "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "hotbar.0": {
+        "items": "minecraft:nautilus_shell",
+        "components": {
+          "minecraft:item_model": "minecraft:celestial_bow",
+          "custom_data": {"form":0}
+        }
+      }
+    }
+  }
+    }

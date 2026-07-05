@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "slots": {
+            "weapon.offhand": {
+              "components": {
+                "minecraft:item_model": "minecraft:celestial_bow",
+                "custom_data":{"form":0}
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:nautilus_shell",
+          "components": {
+            "minecraft:item_model": "minecraft:celestial_bow"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "yd_cb_main:system/right_click/offhand"
+  }
+}
